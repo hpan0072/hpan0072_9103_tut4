@@ -1,29 +1,20 @@
 # hpan0072_9103_tut4
-This is my first local change to the repo
-## heading 2
-### header 3
-#### header 4
-##### header 5
-###### header 6
+This is my Quiz8 assignment
+## Part 1: Imaging Technique Inspiration
+I love teamLab's interactive digital artworks, Their work *“Universe of Water Particles”* transforms fluid dynamics into art, with **particles** simulating the physical movement of water. I hope that this technique can be used to recreate *“Saint-Georges majeur au crépuscule”*. It is interesting to simulate the natural scenes of the Impressionist paintings with the organic feeling of particle flow just like the **pointillism**. I also wanted to link the visual elements with sound to add a sense of dynamism to the work.
+- Pointillism image
+![pointillism image](readmeImages/pointillism.jpg)
+- Universe of Water Particles
+![particles image](readmeImages/Universe_of_Water_Particles.png)
 
-**bold**
-*italics*
-- list item 
-- another
- -indented
- -still indented
- - not indented
 
- 1. ordered
- 2. still ordered
- [link text](http://www.google.com)
- ![alt text](heep://placekitten.com/200/300)
- ![mona lisa image](readmeImages/Mona_Lisa_by_Leonardo_da_Vinci_500_x_700.jpg)
+## Part 2: Coding Technique Exploration
+1. I intend to use the **p5.js particle system library** to transform the sky, water reflections, and sunsets into dynamic particle-based representations, and to use **Perlin noise** to achieve dynamic effects while maintaining a certain level of uniformity.
+2. **p5.sound library** analyzes the frequency and amplitude of the audio, and by connecting the audio frequencies to particle motion and colour changes, dynamic animation effects can be created. For example, high frequencies can cause particles in the sky to shimmer, while low frequencies can affect the dynamics of water waves.
+- Sample code and demo:
+[Perlin noise](miguelrr11.github.io/Noise_Flow_Field/)
+[Particle effect](https://editor.p5js.org/Playful-Coding/sketches/XbeqeA_XT)
+[Sound system](https://editor.p5js.org/Guarco1/sketches/HyBHvI27W)
 
-//code block
-function helloWorld(){
-    for (i=0;i<10;i++){
-        //do something
-    }
-}
->This is a blockquote
+
+
